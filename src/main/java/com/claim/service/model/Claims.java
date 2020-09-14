@@ -1,4 +1,4 @@
-package com.journaldev.bootifulmongodb.model;
+package com.claim.service.model;
 
 import java.util.HashMap;
 

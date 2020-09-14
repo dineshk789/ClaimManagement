@@ -1,4 +1,4 @@
-package com.journaldev.bootifulmongodb.dal;
+package com.claim.service.dal;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Repository;
 
-import com.journaldev.bootifulmongodb.model.Claims;
-import com.journaldev.bootifulmongodb.model.User;
+import com.claim.service.model.Claims;
+import com.claim.service.model.User;
 
 @Repository
 public class UserDALImpl implements UserDAL {
