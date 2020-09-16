@@ -52,6 +52,7 @@ public class UserDALImpl implements UserDAL {
         update.set("emp_name", claim.getEmp_name());
         update.set("claim_number", claim.getClaim_number());
         update.set("claim_program", claim.getClaim_program());
+        update.set("claim_type", claim.getClaim_type());
         return mongoTemplate.findAndModify(query, update, Claims.class);
     }
 
